@@ -1,7 +1,7 @@
 /*********************************************************
-* Name: ÃÖ ÁØ Çü
+* Name: ìµœ ì¤€ í˜•
 * Student ID : 20123425
-* Program ID : ¹®Á¦ 1 ÇÇÅ¸°í¶ó½ºÀÇ ±â´ë°ª
+* Program ID : ë¬¸ì œ 1 í”¼íƒ€ê³ ë¼ìŠ¤ì˜ ê¸°ëŒ€ê°’
 * Description: 
 * Algorithm : 
 * Variables:
@@ -22,14 +22,14 @@ int main() {
 		f >> numTeam;
 		f >> numGame;
 
-		int *tmGScr = new int[numTeam+1]; // È¹µæÁ¡¼ö
-		int *tmLScr = new int[numTeam+1]; // ÀÒÀºÁ¡¼ö
+		int *tmGScr = new int[numTeam+1]; // íšë“ì ìˆ˜
+		int *tmLScr = new int[numTeam+1]; // ìƒì€ì ìˆ˜
 
-		for (int i = 1; i <= numTeam; i++) { // ÃÊ±âÈ­
+		for (int i = 1; i <= numTeam; i++) { // ì´ˆê¸°í™”
 			tmGScr[i] = 0;
 			tmLScr[i] = 0;
 		}
-		for (int i = 0; i < numGame; i++) { //°¢ÆÀÀÇ È¹µæÁ¡¼ö, ÀÒÀºÁ¡¼ö °Ô»ê
+		for (int i = 0; i < numGame; i++) { //ê°íŒ€ì˜ íšë“ì ìˆ˜, ìƒì€ì ìˆ˜ ê²Œì‚°
 			int teamA, teamB;
 			int getA, getB;
 			f >> teamA >> teamB >> getA >> getB;
@@ -40,7 +40,7 @@ int main() {
 
 		}
 
-		float* team = new float[numTeam+1];//ÇÇÅ¸°í¶ó½ºÀÇ ±â´ë°ª
+		float* team = new float[numTeam+1];//í”¼íƒ€ê³ ë¼ìŠ¤ì˜ ê¸°ëŒ€ê°’
 
 		int max;
 		int min;
