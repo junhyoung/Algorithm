@@ -1,4 +1,4 @@
-//20123425 ÃÖÁØÇü
+//20123425 ÃƒÃ–ÃÃ˜Ã‡Ã¼
 //Num02 Palindrom number
 #include<iostream>
 #include<fstream>
